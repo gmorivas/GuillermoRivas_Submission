@@ -4,7 +4,6 @@ Developed with Unreal Engine 5.5.4 and Visual Studio Community 2022.
 
 The demo level is called M_Submission, is the only one on the Levels folder and its the default level for the project (editor and game).
 
-
 Bowling scoring rules taken from:
 - https://en.wikipedia.org/wiki/Tenpin_bowling#Traditional_scoring
 - https://www.wikihow.com/Score-Bowling
@@ -34,3 +33,8 @@ When were blueprints used and why:
 - There is a blueprint that extends the C++ class for the individual score. Used to arrange graphically the widgets.
 - There is also a blueprint that extends the C++ class for the final score. Also used to arrange graphically the widgets.
 - The last widget blueprint 
+
+Sample images:
+
+<img src="readme_images/regular_game.png" width=800 />
+<img src="readme_images/perfect_game.png" width=800 />
