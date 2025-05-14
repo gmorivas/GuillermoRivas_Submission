@@ -1,4 +1,6 @@
-Developed with Unreal Engine and Visual Studio Community 2022.
+
+
+Developed with Unreal Engine 5.5.4 and Visual Studio Community 2022.
 
 The demo level is called M_Submission, is the only one on the Levels folder and its the default level for the project (editor and game).
 
@@ -24,6 +26,7 @@ Possible improvements (not done because of time concerns):
 - The next values retrieval logic in ScoreBoard.cpp is considering special cases for the last and 1-before-last positions. I think it could be streamlined.
 - On the last field 
 - A reset button to cleanup board.
+- a second x can be set on the second box in a column. It has no impact whatsoever, only on the last turn set (the triple spaced one).
 
 When were blueprints used and why:
 - The level blueprint was used only to spawn the score board widget blueprint and enable the mouse pointer
